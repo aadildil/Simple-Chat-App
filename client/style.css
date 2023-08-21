@@ -1,0 +1,53 @@
+body
+{
+    padding: 20px;
+    margin: 0px;
+    background-color: rgb(237, 243, 220);
+}
+.form-username
+{
+    display: block;
+}
+.chatroom-container
+{
+    display: none;
+    height: 100vh;
+    width: 100%;
+}
+.messages
+{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 79vw;
+    background-color: #e1e1e1;
+    
+}
+.input-div
+{
+    display: flex;
+
+}
+.input-div > input
+{
+    flex: 8;
+    height: 5vh;
+}
+.input-div > button
+{
+    flex: 2;
+    height: 5vh;
+}
+.message
+{
+    width: fit-content;
+    background-color: rgb(234, 234, 192);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+.sent
+{
+    background-color: rgb(141, 231, 141);
+    align-self: flex-end;
+}
